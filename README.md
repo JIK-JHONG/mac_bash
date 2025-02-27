@@ -2,7 +2,7 @@ It is a folder for bash code in MacOS.
 ---
 
 BEFORE USING
--
+
 chmod +x xxx.sh
 -
 
