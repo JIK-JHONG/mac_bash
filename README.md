@@ -1,18 +1,12 @@
-It is a folder for bash code in MacOS.
----
-
-BEFORE USING
-
-chmod +x xxx.sh
+Bash code in MacOS
 -
+**Image Process**
 
-↳convert_h264.sh    Encoding the video to H.265 
+| Bash name | Type | Description |
+|-------|-------|-------|
+| [convert_h264](https://github.com/JIK-JHONG/side_project/tree/main/convert_h264.sh) | bash | Encoding the video to H.265  |
+| [run_c](https://github.com/JIK-JHONG/side_project/tree/main/run_c.sh) | bash | Compile and run the C code  |
+| [run_cv_cpp](https://github.com/JIK-JHONG/side_project/tree/main/run_cv_cpp.sh) | bash | Compile and run the C++ code for openCV  |
+| [png2video](https://github.com/JIK-JHONG/side_project/tree/main/png2video.sh) | bash | Combine all *.png files in floder to .mp4 (EX : Combining animation figures which exporting via paraView)  |
 
-↳run_c.sh           Compile and run the C code                   
-./run_c.sh  xxx or ./run_c.sh  xxx.c
-
-↳run_cv_cpp.sh      Compile and run the C++ code for openCV      
-./run_cv_cpp.sh  xxx or ./run_cv_cpp.sh  xxx.cpp
-
-↳png2video.sh       Combine all *.png files in floder to .mp4
-(EX : Combining animation figures which exporting via paraView)
+1. BEFORE USING : **chmod +x xxx.sh**
