@@ -1,5 +1,11 @@
 It is a folder for bash code in MacOS.
 ---
+
+BEFORE USING
+-
+chmod +x xxx.sh
+-
+
 ↳convert_h264.sh    Encoding the video to H.265 
 
 ↳run_c.sh           Compile and run the C code                   
