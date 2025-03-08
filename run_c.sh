@@ -25,8 +25,10 @@ fi
 exec_name="${output_name%.c}"
 
 echo ""
+echo "-- 編譯版本資訊 --"
+echo "GCC 版本：$(gcc --version | head -n 1)"
 echo "進行作業 $current_time ..."
-echo "正在編譯 $output_name.c ..."
+echo "正在編譯 $exec_name.c ..."
 # 編譯程式，輸出名稱使用變數
 gcc -o "$exec_name" "$output_name"
 if [ $? -eq 0 ]; then
